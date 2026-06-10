@@ -21,23 +21,18 @@ body {
   transform: translate(-50%, -50%);
   z-index: 1;
   margin: 0;
-  width: min(620px, 86vw);
+  width: min(560px, 88vw);
   text-align: center;
-  text-wrap: balance; /* even two-line wrap */
+  text-wrap: balance; /* split evenly into two lines */
   font-family: "Syne", ui-sans-serif, system-ui, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #00bbff;
-  font-size: clamp(1.4rem, 4vw, 3.1rem);
-  letter-spacing: 0.04em;
-  line-height: 1.12;
+  font-size: clamp(1.15rem, 3.2vw, 2.3rem);
+  letter-spacing: 0.03em;
+  line-height: 1.18;
   pointer-events: none;
   user-select: none;
-  /* hard cap at two lines */
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
 }
 
 #globe-wrap {
