@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRI Globe</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="globe-wrap" aria-label="Interactive event globe">
+      <canvas id="globe-canvas"></canvas>
+    </div>
+
+    <div class="event-modal" aria-hidden="true">
+      <button class="event-backdrop" type="button" aria-label="Close"></button>
+      <div class="event-card" role="dialog" aria-modal="true">
+        <button class="event-close" type="button" aria-label="Close">&times;</button>
+        <img class="event-photo" alt="" />
+        <div class="event-text">
+          <h3 class="event-name"></h3>
+          <p class="event-desc"></p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/globe.js"></script>
+  </body>
+</html>
