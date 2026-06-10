@@ -17,7 +17,7 @@ body {
 .globe-caption {
   position: fixed;
   left: 50%;
-  top: 86%;
+  top: 92%;
   transform: translate(-50%, -50%);
   z-index: 1;
   margin: 0;
