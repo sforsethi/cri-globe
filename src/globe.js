@@ -90,14 +90,14 @@ function startGlobe() {
   if (!width || globe) return;
 
   globe = createGlobe(canvas, {
-    devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+    devicePixelRatio: Math.min(window.devicePixelRatio || 1, 3),
     width,
     height: width,
     phi: 0,
     theta: 0.2,
     dark: 0,
     diffuse: 1.2,
-    mapSamples: 16000,
+    mapSamples: 33000,
     mapBrightness: 5,
     baseColor: [1, 1, 1],
     markerColor: [0.18, 0.42, 1.0],
