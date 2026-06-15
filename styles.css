@@ -17,18 +17,18 @@ body {
 .globe-caption {
   position: fixed;
   left: 50%;
-  top: 92%;
+  top: 88%;
   transform: translate(-50%, -50%);
   z-index: 1;
   margin: 0;
-  width: min(560px, 88vw);
+  width: min(720px, 92vw);
   text-align: center;
   text-wrap: balance; /* split evenly into two lines */
   font-family: "Syne", ui-sans-serif, system-ui, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #00bbff;
-  font-size: clamp(1.15rem, 3.2vw, 2.3rem);
+  font-size: clamp(1.4rem, 3.5vw, 2.55rem);
   letter-spacing: 0.03em;
   line-height: 1.18;
   pointer-events: none;

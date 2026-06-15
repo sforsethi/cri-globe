@@ -6,7 +6,7 @@ const LOCATIONS = [
   { id: "bahamas", name: "Bahamas", location: [25.06, -77.35], img: "bahamas.png", desc: "Corporate off-site at Bahamas", rotate: -5 },
   { id: "vietnam", name: "Vietnam", location: [21.03, 105.85], img: "vietnam.png", desc: "Company off-site in Ho Chi Minh City", rotate: 4 },
   { id: "muscat", name: "Muscat", location: [23.61, 58.59], img: "event2.png", desc: "Honeywell Event in Muscat, Oman", rotate: -3 },
-  { id: "srilanka", name: "Sri Lanka", location: [6.93, 79.86], img: "event4.png", desc: "Annual leadership offsite", rotate: 5 },
+  { id: "srilanka", name: "Sri Lanka", location: [6.93, 79.86], img: "srilanka.png", desc: "Egon Zehnder event in Sri Lanka", rotate: 5 },
   { id: "delhi", name: "Delhi", location: [28.61, 77.21], img: "delhi.png", desc: "Kargil Divas in Delhi", rotate: -4 },
   { id: "mumbai", name: "Mumbai", location: [19.08, 72.88], img: "event6.png", desc: "Investor & founders dinner", rotate: 3 },
   { id: "dubai", name: "Dubai", location: [25.2, 55.27], img: "event1.png", desc: "G42 exhibition booth", rotate: -6 },
