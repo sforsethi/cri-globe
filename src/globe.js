@@ -3,13 +3,13 @@ import createGlobe from "../vendor/cobe.module.js";
 // 15 event locations. cobe markers use [lat, lon]; each needs a unique id so
 // cobe emits the --cobe-<id> CSS anchor + --cobe-visible-<id> variable.
 const LOCATIONS = [
-  { id: "bahamas", name: "Bahamas", location: [25.06, -77.35], img: "event1.png", desc: "President's Club incentive retreat", rotate: -5 },
-  { id: "vietnam", name: "Vietnam", location: [21.03, 105.85], img: "event2.png", desc: "Regional partner summit", rotate: 4 },
-  { id: "muscat", name: "Muscat", location: [23.61, 58.59], img: "event3.png", desc: "Desert gala experience", rotate: -3 },
+  { id: "bahamas", name: "Bahamas", location: [25.06, -77.35], img: "bahamas.png", desc: "Corporate off-site at Bahamas", rotate: -5 },
+  { id: "vietnam", name: "Vietnam", location: [21.03, 105.85], img: "vietnam.png", desc: "Company off-site in Ho Chi Minh City", rotate: 4 },
+  { id: "muscat", name: "Muscat", location: [23.61, 58.59], img: "event2.png", desc: "Honeywell Event in Muscat, Oman", rotate: -3 },
   { id: "srilanka", name: "Sri Lanka", location: [6.93, 79.86], img: "event4.png", desc: "Annual leadership offsite", rotate: 5 },
-  { id: "delhi", name: "Delhi", location: [28.61, 77.21], img: "event5.png", desc: "Flagship product launch gala", rotate: -4 },
+  { id: "delhi", name: "Delhi", location: [28.61, 77.21], img: "delhi.png", desc: "Kargil Divas in Delhi", rotate: -4 },
   { id: "mumbai", name: "Mumbai", location: [19.08, 72.88], img: "event6.png", desc: "Investor & founders dinner", rotate: 3 },
-  { id: "dubai", name: "Dubai", location: [25.2, 55.27], img: "event7.png", desc: "Luxury brand launch", rotate: -6 },
+  { id: "dubai", name: "Dubai", location: [25.2, 55.27], img: "event1.png", desc: "G42 exhibition booth", rotate: -6 },
   { id: "abudhabi", name: "Abu Dhabi", location: [24.45, 54.38], img: "event8.png", desc: "Anniversary celebration", rotate: 4 },
 ];
 
