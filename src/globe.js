@@ -4,20 +4,13 @@ import createGlobe from "../vendor/cobe.module.js";
 // cobe emits the --cobe-<id> CSS anchor + --cobe-visible-<id> variable.
 const LOCATIONS = [
   { id: "bahamas", name: "Bahamas", location: [25.06, -77.35], img: "event1.png", desc: "President's Club incentive retreat", rotate: -5 },
-  { id: "melbourne", name: "Melbourne", location: [-37.81, 144.96], img: "event2.png", desc: "Global partner summit", rotate: 4 },
-  { id: "kl", name: "Kuala Lumpur", location: [3.14, 101.69], img: "event3.png", desc: "Regional brand activation", rotate: -3 },
+  { id: "vietnam", name: "Vietnam", location: [21.03, 105.85], img: "event2.png", desc: "Regional partner summit", rotate: 4 },
+  { id: "muscat", name: "Muscat", location: [23.61, 58.59], img: "event3.png", desc: "Desert gala experience", rotate: -3 },
   { id: "srilanka", name: "Sri Lanka", location: [6.93, 79.86], img: "event4.png", desc: "Annual leadership offsite", rotate: 5 },
   { id: "delhi", name: "Delhi", location: [28.61, 77.21], img: "event5.png", desc: "Flagship product launch gala", rotate: -4 },
-  { id: "calcutta", name: "Calcutta", location: [22.57, 88.36], img: "event6.png", desc: "Cultural night & awards", rotate: 3 },
-  { id: "mumbai", name: "Mumbai", location: [19.08, 72.88], img: "event7.png", desc: "Investor & founders dinner", rotate: -6 },
-  { id: "jaipur", name: "Jaipur", location: [26.91, 75.79], img: "event8.png", desc: "Heritage gala evening", rotate: 5 },
-  { id: "chennai", name: "Chennai", location: [13.08, 80.27], img: "event1.png", desc: "Tech conference keynote", rotate: -3 },
-  { id: "bangalore", name: "Bangalore", location: [12.97, 77.59], img: "event2.png", desc: "Innovation expo showcase", rotate: 4 },
-  { id: "hyderabad", name: "Hyderabad", location: [17.39, 78.49], img: "event3.png", desc: "Sales kickoff celebration", rotate: -5 },
-  { id: "dubai", name: "Dubai", location: [25.2, 55.27], img: "event4.png", desc: "Luxury brand launch", rotate: 3 },
-  { id: "oman", name: "Oman", location: [23.59, 58.41], img: "event5.png", desc: "Desert gala experience", rotate: -4 },
-  { id: "egypt", name: "Egypt", location: [30.04, 31.24], img: "event6.png", desc: "Anniversary celebration", rotate: 6 },
-  { id: "italy", name: "Italy", location: [41.9, 12.5], img: "event7.png", desc: "European leadership summit", rotate: -3 },
+  { id: "mumbai", name: "Mumbai", location: [19.08, 72.88], img: "event6.png", desc: "Investor & founders dinner", rotate: 3 },
+  { id: "dubai", name: "Dubai", location: [25.2, 55.27], img: "event7.png", desc: "Luxury brand launch", rotate: -6 },
+  { id: "abudhabi", name: "Abu Dhabi", location: [24.45, 54.38], img: "event8.png", desc: "Anniversary celebration", rotate: 4 },
 ];
 
 const wrap = document.querySelector("#globe-wrap");
